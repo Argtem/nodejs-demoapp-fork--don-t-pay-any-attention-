@@ -6,7 +6,7 @@
 
 import axios from 'axios'
 
-export async function getUserDetails(accessToken) {
+exort async function getUserDetails(accessToken) {
   try {
     const graphReq = {
       url: 'https://graph.microsoft.com/v1.0/me',
