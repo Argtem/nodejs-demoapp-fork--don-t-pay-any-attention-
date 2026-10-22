@@ -23,6 +23,6 @@ jobs:
         cd src
         npm ci
     - name: Run code validation (Linter)
-        run: make lint
+      run: make lint
 
 
